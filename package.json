@@ -1,0 +1,26 @@
+{
+  "name": "simplehttp",
+  "version": "1.0.0",
+  "description": "simple http excercise",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToddWilliams459/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Todd Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ToddWilliams459/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/ToddWilliams459/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
